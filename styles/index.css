@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Young-Serif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ecd4b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 50%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.calories {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+hr {
+  border-top: 1px dotted #8c8b8b;
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  margin: 32px;
+  background: white;
+  padding: 64px;
+  border-radius: 25px;
+  width: 60%;
+}
+
+.card img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.prepTime {
+  background-color: hsl(330, 100%, 98%);
+}
+
+.prepTime h4 {
+  color: hsl(332, 51%, 32%);
+}
